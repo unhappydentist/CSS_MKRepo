@@ -7,91 +7,42 @@
 
     <style>
         body{
-          background-color: cadetblue;
+            background-color: cadetblue;
+            font-family: 'Courier New', Courier, monospace;
         }
-      
+
         h2{
-          font-family: Verdana;
+          font-family: fantasy;
           text-align: left;
-          display: block;
-          margin: 3px;
+          color: red;
         }
-      
-        .topnav{
+        .impact{
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          color:white;
+        }
+        .testclass{
           font-family: Arial, Helvetica, sans-serif;
-          display: block;
-          margin: 3px;
+          color:orange;
         }
-      
         a{
-          color:red;
-          display: inline;
-          padding-left:3px;
+          color: yellow;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 18px;
+          display: inline-block;
+          background-color: gray;
+          padding: 5px;
+          margin: 10px 5px 10px 5px;
         }
-      
         a:hover{
-          color: blue;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
         }
-      
-        .landscape{
-          display: block;
-          margin: 0 auto;
-          padding: 0 auto;
-        }
-      
-        .label {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: right;
-            width: 100px;
-            display: inline-block;
-            padding: 0px 10px 0px 0px;
-        }
-
-        .rmb{
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: left;
-            display: inline-block;
-            padding: 10px;
-        }
-
-        input{
-            display: inline-block;
-            padding: 0px;
-            width: 200px;
-        }
-
-        #ck{
-            width: auto;
-            display: inline;
-            padding: 10px;
-            text-align: right;
-        }
-
-        .submitbtn{
-            font-family: Arial, Helvetica, sans-serif;
-            display: block;
-            margin: auto;
-            padding:3px 10px;
-        }
-
-        #content{
-            display:block;
-            background-color: gray;
-            padding: 20px;
-            border: 3px;
-            border-color: white;
-            border-style: solid;
-            width: 375px;
-            margin: 30px auto;
-        }
-
-        #content-center{
-            display: block;
-            text-align: center;
-        }
-      </style>
+    </style>
 
 </head>
+
 
 <body>
 
@@ -101,23 +52,20 @@
       <a href="home.html">Home</a>
       <a href="login.html">Login</a>
       <a href="search.html">Search</a>
-    </div> 
-
-    
-    <div id="content">
-        <label class="label" for="mail">Email: </label>
-        <input type="email" id="mail" name="mail">
-        <br>
-        <label class="label" for="pw">Password: </label>
-        <input type="password" id="pw" name="pw">
-        <div id="content-center">
-            <input type="checkbox" id="ck" name="ck">
-            <label class="rmb" for="ck">Remember me</label>
-        </div>
-        <input class="submitbtn" type="submit" value="Login">
     </div>
-</body>
 
+    <label for="mail">Email: </label>
+    <input type="email" id="mail" name="mail">
+    <br/>
+    <label for="pw">Password: </label>
+    <input type="password" id="pw" name="pw">
+    <br/>
+    <input type="submit" value="Login">
+    <br/>
+    <input type="checkbox" id="ck" name="ck">
+    <label for="ck">Remember me</label>
+
+</body>
 <footer>
   
 </footer>
